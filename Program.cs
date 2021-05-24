@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Behavioral;
+using Creational;
+using CreationalExt;
+using Structural;
 
 namespace DesignPatterns
 {
@@ -6,7 +9,18 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //StrategyTest.Test();
+            //ObserverTest.Test();
+            //DecoratorTest.Test();
+            //SimpleFactoryTest.Test();
+            //FactoryMethodPatternTest.Test();
+            //PizzaTestDrive.Test();
+            //RemoteLoader.Test();
+            //DuckTestDrive.Test();
+            //TurkeyTestDrive.Test();
+            //HomeTheaterTestDrive.Test();
+            //MenuTestDrive.Test();
+            TestCompositePattern.Test();
         }
     }
 }
